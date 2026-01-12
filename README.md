@@ -129,4 +129,40 @@ Các nhóm tình huống đã kiểm thử trong `StudentAnalyzerTest`:
    https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.10.2/
 - Đặt đường dẫn jar vào biến môi trường tạm `JUNIT_JAR`.
 
+Ví dụ trên Windows (PowerShell):
+```
+$env:JUNIT_JAR="C:\\path\\to\\junit-platform-console-standalone-1.10.2.jar"
+```
+Ví dụ trên CMD:
+```
+set JUNIT_JAR=C:\path\to\junit-platform-console-standalone-1.10.2.jar
+```
+
+#### 6.2. Biên dịch
+Tại thư mục gốc repo (chứa thư mục `unit-test/`), tạo thư mục đầu ra nếu chưa có:
+```
+mkdir unit-test/out
+```
+Biên dịch mã nguồn và test:
+```
+javac -cp "%JUNIT_JAR%" -d unit-test/out unit-test/src/StudentAnalyzer.java unit-test/test/StudentAnalyzerTest.java
+```
+
+#### 6.3. Chạy test
+Chạy JUnit console để quét classpath và thực thi test:
+```
+java -jar "%JUNIT_JAR%" -cp unit-test/out --scan-class-path
+```
+
+#### 6.4. Tuỳ chọn: chạy khi đang ở thư mục unit-test
+Nếu bạn `cd unit-test` trước, có thể dùng lệnh ngắn gọn:
+```
+javac -cp "%JUNIT_JAR%" -d out src/StudentAnalyzer.java test/StudentAnalyzerTest.java
+java -jar "%JUNIT_JAR%" -cp out --scan-class-path
+```
+
+#### 6.5. Kỳ vọng khi chạy
+- Toàn bộ test trong `StudentAnalyzerTest` hiển thị trạng thái PASSED.
+- Không có lỗi ClassNotFound; nếu có, kiểm tra biến `JUNIT_JAR` và đường dẫn `out`.
+
 
