@@ -45,6 +45,7 @@ Thông qua bài tập này, em:
 - Hiểu rõ hơn vai trò của UI/UX trong kiểm thử phần mềm
 - Rèn luyện tư duy chi tiết và khả năng đánh giá trải nghiệm người dùng
 
+
 Bài tập có tính thực tiễn cao, hỗ trợ tốt cho việc học môn **Kiểm thử phần mềm**.
 
 ### Cam kết
