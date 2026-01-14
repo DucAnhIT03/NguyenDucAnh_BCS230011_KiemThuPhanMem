@@ -31,7 +31,7 @@ Kết quả cho thấy khả năng quan sát và nhận diện lỗi giao diện
 ### Minh chứng hoàn thành
 Ảnh chụp màn hình kết quả sau khi hoàn thành bài tập:
 
-![Can't Unsee Result (ảnh kết quả)](./Screenshot%202026-01-05%20143631.png)
+![Can't Unsee Result (ảnh kết quả)](./cantunsee.png)
 
 > Minh chứng thể hiện rõ:
 > - Tên bài tập: *Can't Unsee*
