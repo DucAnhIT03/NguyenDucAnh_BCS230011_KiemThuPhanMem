@@ -78,7 +78,7 @@ Hai chức năng chính trong lớp `StudentAnalyzer` (lớp phân tích điểm
 
 ### 1.3. Lý do chọn xử lý này
 - Tách hai vòng lặp giúp mã rõ ràng theo yêu cầu bài; dễ mở rộng mà không làm rối logic.
-- Trả về 0/0.0 khi không có dữ liệu hợp lệ giúp tránh `ArithmeticException` và phản ánh “không có kết quả”.
+- Trả về 0/0.0 khi không có dữ liệu hợp lệ giúp tránh `ArithmeticException` (ngoại lệ khi chia cho 0) và phản ánh “không có kết quả”.
 
 ### 2. Mục tiêu học tập
 - Biết viết kiểm thử tự động bằng JUnit 5 (khung kiểm thử Java).
@@ -162,6 +162,6 @@ java -jar "%JUNIT_JAR%" -cp out --scan-class-path
 
 #### 6.5. Kỳ vọng khi chạy
 - Toàn bộ kiểm thử trong `StudentAnalyzerTest` hiển thị trạng thái PASSED (thành công theo thông báo của JUnit).
-- Không có lỗi ClassNotFound; nếu có, kiểm tra biến `JUNIT_JAR` và đường dẫn `out`.
+- Không có lỗi ClassNotFound (không tìm thấy lớp); nếu có, kiểm tra biến `JUNIT_JAR` và đường dẫn `out`.
 
 
