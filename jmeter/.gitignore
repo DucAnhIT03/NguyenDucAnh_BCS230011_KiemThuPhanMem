@@ -1,18 +1,12 @@
-# JMeter Results
+# JMeter outputs
 *.jtl
 *.csv
 results/
 report/
 
-# Node and Cypress
-node_modules/
-cypress/screenshots/
-cypress/videos/
-
-# JMeter Logs
+# Logs
 jmeter.log
 jmeter-server.log
 
-# Screenshots (optional - uncomment if you don't want to commit screenshots)
+# Screenshots (optional)
 # *.png
-# *.jpg
