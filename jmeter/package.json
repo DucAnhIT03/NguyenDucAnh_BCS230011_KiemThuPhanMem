@@ -1,0 +1,14 @@
+{
+  "name": "jmeter-cypress-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress end-to-end practice for saucedemo.com",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --browser chrome",
+    "test": "npm run cypress:run"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  }
+}
