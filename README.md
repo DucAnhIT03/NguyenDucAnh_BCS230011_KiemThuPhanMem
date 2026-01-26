@@ -362,11 +362,11 @@ Giải thích các tham số:
 
 ### 11. Minh chứng hoàn thành
 
-- Summary Report TG1: ![Summary TG1](./jmeter/img/jmeter1.png)
-- Summary Report TG2: ![Summary TG2](./jmeter/img/jmeter2.png)
-- Summary Report TG3: ![Summary TG3](./jmeter/img/jmeter3.png)
-- View Results Tree (mẫu request): ![View Results Tree](./jmeter/img/jmeter4.png)
-- Runner tổng quan/phiên bản: ![Runner Overview](./jmeter/img/jmeter5.png)
+- Summary Report TG1: ![Summary TG1](./cypress/img/jmeter1.png)
+- Summary Report TG2: ![Summary TG2](./cypress/img/jmeter2.png)
+- Summary Report TG3: ![Summary TG3](./cypress/img/jmeter3.png)
+- View Results Tree (mẫu request): ![View Results Tree](./cypress/img/jmeter4.png)
+- Runner tổng quan/phiên bản: ![Runner Overview](./cypress/img/jmeter5.png)
 
 ### 12. Nhận xét và đánh giá
 
